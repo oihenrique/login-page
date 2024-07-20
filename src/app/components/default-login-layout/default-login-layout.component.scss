@@ -71,6 +71,10 @@ main {
           border: 1px solid $primary-color;
           color: $text-color;
         }
+
+        &:disabled {
+          opacity: 0.75;
+        }
       }
     }
 
